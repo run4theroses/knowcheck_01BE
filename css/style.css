@@ -169,7 +169,9 @@ a:hover, a:active {
     text-transform: uppercase;
     text-align: center;
     margin: 12px auto 24px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-content .btn:focus {
@@ -178,9 +180,9 @@ a:hover, a:active {
     border: 2px solid #333333;
 }
 .hero-content .btn:hover, .hero-content .btn:active {
-    background: #08ce3d;
-    color: #5113ee;
-    border: 2px solid #666666;
+    background: #74b44a;
+    color: #F1F1F1;
+    border: 2px solid #74b44a;
 }
 
 .btn, .btn:visited  {
@@ -222,6 +224,7 @@ a:hover, a:active {
 
 
 .hero-content h1 {
+    align-content: center;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 48px;
     color: #F1F1F1;
